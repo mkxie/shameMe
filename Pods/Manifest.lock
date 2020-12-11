@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.0)
+  - FLAnimatedImage (1.0.12)
+
+DEPENDENCIES:
+  - Alamofire
+  - FLAnimatedImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FLAnimatedImage
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+
+PODFILE CHECKSUM: a3d38e034c720cadce9132b28a42d3853a918264
+
+COCOAPODS: 1.10.0

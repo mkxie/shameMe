@@ -1,0 +1,6 @@
+framework module Pods_shameMe_app {
+  umbrella header "Pods-shameMe-app-umbrella.h"
+
+  export *
+  module * { export * }
+}

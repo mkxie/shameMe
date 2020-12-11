@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var instance: PainViewModel
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HomeView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(PainViewModel())
     }
 }

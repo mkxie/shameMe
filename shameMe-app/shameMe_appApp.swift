@@ -11,7 +11,7 @@ import SwiftUI
 struct shameMe_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(PainViewModel())
         }
     }
 }

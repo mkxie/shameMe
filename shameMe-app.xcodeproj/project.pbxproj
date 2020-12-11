@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,19 @@
 		0466BA25257508AA00418612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466BA24257508AA00418612 /* ContentView.swift */; };
 		0466BA27257508AF00418612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0466BA26257508AF00418612 /* Assets.xcassets */; };
 		0466BA2A257508AF00418612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0466BA29257508AF00418612 /* Preview Assets.xcassets */; };
+		04B774B3257E373F00D4B4BC /* fire.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04B774B2257E373F00D4B4BC /* fire.gif */; };
+		04B8AD5C257DD131001FA532 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AD5B257DD131001FA532 /* InfoView.swift */; };
+		04B8AD5D257DD131001FA532 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AD5A257DD131001FA532 /* TimerView.swift */; };
+		04B8AD5E257DD131001FA532 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AD59257DD131001FA532 /* SetupView.swift */; };
+		04B8AD5F257DD131001FA532 /* PainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AD58257DD131001FA532 /* PainView.swift */; };
+		04B8AD60257DD131001FA532 /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AD56257DD131001FA532 /* DoneView.swift */; };
+		04B8AD61257DD131001FA532 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AD57257DD131001FA532 /* HomeView.swift */; };
+		04C813AF257DEF0A002C894B /* DurationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C813AE257DEF0A002C894B /* DurationPickerView.swift */; };
+		04C813B3257DEF48002C894B /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C813B2257DEF48002C894B /* Time.swift */; };
+		04E90981257E1E10007BA3D8 /* ContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E90980257E1E10007BA3D8 /* ContactPicker.swift */; };
+		04E90985257E2677007BA3D8 /* PainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E90984257E2677007BA3D8 /* PainViewModel.swift */; };
+		04E9098A257E31B7007BA3D8 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E90989257E31B6007BA3D8 /* AnimatedImageView.swift */; };
+		33ABE7537E6E581EA18E0D89 /* Pods_shameMe_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305CC59BC8B4D80DB5EDA92F /* Pods_shameMe_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,21 @@
 		0466BA26257508AF00418612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0466BA29257508AF00418612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0466BA2B257508AF00418612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B774B2257E373F00D4B4BC /* fire.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fire.gif; sourceTree = "<group>"; };
+		04B8AD56257DD131001FA532 /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
+		04B8AD57257DD131001FA532 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04B8AD58257DD131001FA532 /* PainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainView.swift; sourceTree = "<group>"; };
+		04B8AD59257DD131001FA532 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		04B8AD5A257DD131001FA532 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		04B8AD5B257DD131001FA532 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		04C813AE257DEF0A002C894B /* DurationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationPickerView.swift; sourceTree = "<group>"; };
+		04C813B2257DEF48002C894B /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		04E90980257E1E10007BA3D8 /* ContactPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPicker.swift; sourceTree = "<group>"; };
+		04E90984257E2677007BA3D8 /* PainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainViewModel.swift; sourceTree = "<group>"; };
+		04E90989257E31B6007BA3D8 /* AnimatedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		0F99DB0F3423DFF1062CFC4B /* Pods-shameMe-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shameMe-app.debug.xcconfig"; path = "Target Support Files/Pods-shameMe-app/Pods-shameMe-app.debug.xcconfig"; sourceTree = "<group>"; };
+		305CC59BC8B4D80DB5EDA92F /* Pods_shameMe_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shameMe_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B9AF6A3D4480DE7D55CAC /* Pods-shameMe-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shameMe-app.release.xcconfig"; path = "Target Support Files/Pods-shameMe-app/Pods-shameMe-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ABE7537E6E581EA18E0D89 /* Pods_shameMe_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +65,11 @@
 		0466BA16257508AA00418612 = {
 			isa = PBXGroup;
 			children = (
+				04B774B2257E373F00D4B4BC /* fire.gif */,
 				0466BA21257508AA00418612 /* shameMe-app */,
 				0466BA20257508AA00418612 /* Products */,
+				7E2C186DF1BD7B0E0233A900 /* Pods */,
+				AF0E9B108F262F9EF74AA3B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +84,10 @@
 		0466BA21257508AA00418612 /* shameMe-app */ = {
 			isa = PBXGroup;
 			children = (
+				04E90983257E2662007BA3D8 /* ViewModels */,
+				04C813B9257DF1E8002C894B /* Models */,
+				04C813AA257DD207002C894B /* Views */,
 				0466BA22257508AA00418612 /* shameMe_appApp.swift */,
-				0466BA24257508AA00418612 /* ContentView.swift */,
 				0466BA26257508AF00418612 /* Assets.xcassets */,
 				0466BA2B257508AF00418612 /* Info.plist */,
 				0466BA28257508AF00418612 /* Preview Content */,
@@ -69,6 +103,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		04C813AA257DD207002C894B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0466BA24257508AA00418612 /* ContentView.swift */,
+				04B8AD56257DD131001FA532 /* DoneView.swift */,
+				04B8AD57257DD131001FA532 /* HomeView.swift */,
+				04B8AD5B257DD131001FA532 /* InfoView.swift */,
+				04B8AD58257DD131001FA532 /* PainView.swift */,
+				04B8AD59257DD131001FA532 /* SetupView.swift */,
+				04B8AD5A257DD131001FA532 /* TimerView.swift */,
+				04C813AE257DEF0A002C894B /* DurationPickerView.swift */,
+				04E90980257E1E10007BA3D8 /* ContactPicker.swift */,
+				04E90989257E31B6007BA3D8 /* AnimatedImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04C813B9257DF1E8002C894B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04C813B2257DEF48002C894B /* Time.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04E90983257E2662007BA3D8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04E90984257E2677007BA3D8 /* PainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7E2C186DF1BD7B0E0233A900 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F99DB0F3423DFF1062CFC4B /* Pods-shameMe-app.debug.xcconfig */,
+				7E7B9AF6A3D4480DE7D55CAC /* Pods-shameMe-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF0E9B108F262F9EF74AA3B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				305CC59BC8B4D80DB5EDA92F /* Pods_shameMe_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0466BA2E257508AF00418612 /* Build configuration list for PBXNativeTarget "shameMe-app" */;
 			buildPhases = (
+				6E64DB0A89A42C37D29A8A7C /* [CP] Check Pods Manifest.lock */,
 				0466BA1B257508AA00418612 /* Sources */,
 				0466BA1C257508AA00418612 /* Frameworks */,
 				0466BA1D257508AA00418612 /* Resources */,
+				88EDEE1ACCEA91E6555BD9A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B774B3257E373F00D4B4BC /* fire.gif in Resources */,
 				0466BA2A257508AF00418612 /* Preview Assets.xcassets in Resources */,
 				0466BA27257508AF00418612 /* Assets.xcassets in Resources */,
 			);
@@ -133,13 +220,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E64DB0A89A42C37D29A8A7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shameMe-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88EDEE1ACCEA91E6555BD9A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shameMe-app/Pods-shameMe-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shameMe-app/Pods-shameMe-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shameMe-app/Pods-shameMe-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0466BA1B257508AA00418612 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C813AF257DEF0A002C894B /* DurationPickerView.swift in Sources */,
+				04E9098A257E31B7007BA3D8 /* AnimatedImageView.swift in Sources */,
+				04B8AD61257DD131001FA532 /* HomeView.swift in Sources */,
+				04C813B3257DEF48002C894B /* Time.swift in Sources */,
+				04B8AD5D257DD131001FA532 /* TimerView.swift in Sources */,
+				04B8AD5C257DD131001FA532 /* InfoView.swift in Sources */,
+				04B8AD60257DD131001FA532 /* DoneView.swift in Sources */,
+				04E90981257E1E10007BA3D8 /* ContactPicker.swift in Sources */,
 				0466BA25257508AA00418612 /* ContentView.swift in Sources */,
+				04B8AD5E257DD131001FA532 /* SetupView.swift in Sources */,
 				0466BA23257508AA00418612 /* shameMe_appApp.swift in Sources */,
+				04E90985257E2677007BA3D8 /* PainViewModel.swift in Sources */,
+				04B8AD5F257DD131001FA532 /* PainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +404,7 @@
 		};
 		0466BA2F257508AF00418612 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F99DB0F3423DFF1062CFC4B /* Pods-shameMe-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +426,7 @@
 		};
 		0466BA30257508AF00418612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7B9AF6A3D4480DE7D55CAC /* Pods-shameMe-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
